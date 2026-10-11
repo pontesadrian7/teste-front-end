@@ -1,0 +1,56 @@
+.topbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 7.4375rem;
+}
+
+.main-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 0;
+
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .search {
+    flex: 1;
+    max-width: 630px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .icons {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.nav-menu {
+  border-top: 1px solid #eee;
+  padding: 12px 0;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .active {
+    color: #1a4fff;
+    font-weight: bold;
+  }
+}
